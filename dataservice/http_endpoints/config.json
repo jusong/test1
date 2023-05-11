@@ -11,7 +11,7 @@
         "return_type": "JSON"
     },
     {
-        "route": "/test",
+        "route": "/hello1",
         "http_method": "POST",
         "function_name": "Function_0",
         "validation_method": "NO_VALIDATION",
