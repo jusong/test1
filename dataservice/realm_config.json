@@ -1,8 +1,9 @@
 {
-    "app_id": "application-1-gcudq",
+    "app_id": "application-0-iktjg",
     "config_version": 20210101,
-    "name": "Application-1",
-    "location": "BR-SP",
-    "provider_region": "aws-sa-east-1",
-    "deployment_model": "LOCAL"
+    "name": "Application-0",
+    "location": "SG",
+    "provider_region": "aws-ap-southeast-1",
+    "deployment_model": "LOCAL",
+    "environment": "testing"
 }

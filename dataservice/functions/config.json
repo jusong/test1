@@ -1,6 +1,7 @@
 [
     {
-        "name": "Function_0",
-        "private": false
+        "name": "test1",
+        "private": false,
+        "disable_arg_logs": true
     }
 ]
