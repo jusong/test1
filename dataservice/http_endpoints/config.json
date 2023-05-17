@@ -22,7 +22,7 @@
         "return_type": "EJSON"
     },
     {
-        "route": "/test3",
+        "route": "/test3_2",
         "http_method": "POST",
         "function_name": "test1",
         "validation_method": "NO_VALIDATION",
