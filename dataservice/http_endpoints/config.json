@@ -1,6 +1,6 @@
 [
     {
-        "route": "/test1",
+        "route": "/test1_1",
         "http_method": "POST",
         "function_name": "test1",
         "validation_method": "NO_VALIDATION",
