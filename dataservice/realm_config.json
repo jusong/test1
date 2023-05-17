@@ -1,7 +1,7 @@
 {
     "app_id": "application-0-iktjg",
     "config_version": 20210101,
-    "name": "Application-test",
+    "name": "Application-01",
     "location": "SG",
     "provider_region": "aws-ap-southeast-1",
     "deployment_model": "LOCAL",
