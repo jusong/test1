@@ -1,28 +1,6 @@
 [
     {
-        "route": "/test1_1",
-        "http_method": "POST",
-        "function_name": "test1",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": false,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false,
-        "return_type": "EJSON"
-    },
-    {
-        "route": "/test2",
-        "http_method": "POST",
-        "function_name": "test1",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": false,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false,
-        "return_type": "EJSON"
-    },
-    {
-        "route": "/test3_3",
+        "route": "/test8",
         "http_method": "POST",
         "function_name": "test2",
         "validation_method": "NO_VALIDATION",
@@ -30,10 +8,10 @@
         "fetch_custom_user_data": false,
         "create_user_on_auth": false,
         "disabled": false,
-        "return_type": "EJSON"
+        "return_type": "JSON"
     },
     {
-        "route": "/test4",
+        "route": "/test9",
         "http_method": "POST",
         "function_name": "test2",
         "validation_method": "NO_VALIDATION",
@@ -41,6 +19,17 @@
         "fetch_custom_user_data": false,
         "create_user_on_auth": false,
         "disabled": false,
-        "return_type": "EJSON"
+        "return_type": "JSON"
+    },
+    {
+        "route": "/test10",
+        "http_method": "POST",
+        "function_name": "test2",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": false,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "JSON"
     }
 ]

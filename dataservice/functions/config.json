@@ -8,10 +8,5 @@
         "name": "test2",
         "private": false,
         "disable_arg_logs": true
-    },
-    {
-        "name": "test3",
-        "private": false,
-        "disable_arg_logs": true
     }
 ]
