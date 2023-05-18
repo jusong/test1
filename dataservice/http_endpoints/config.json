@@ -1,6 +1,17 @@
 [
     {
-        "route": "/test8",
+        "route": "/test2",
+        "http_method": "POST",
+        "function_name": "test1",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": false,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false,
+        "return_type": "EJSON"
+    },
+    {
+        "route": "/test3_3",
         "http_method": "POST",
         "function_name": "test2",
         "validation_method": "NO_VALIDATION",
@@ -8,10 +19,10 @@
         "fetch_custom_user_data": false,
         "create_user_on_auth": false,
         "disabled": false,
-        "return_type": "JSON"
+        "return_type": "EJSON"
     },
     {
-        "route": "/test9",
+        "route": "/test4",
         "http_method": "POST",
         "function_name": "test2",
         "validation_method": "NO_VALIDATION",
@@ -19,12 +30,12 @@
         "fetch_custom_user_data": false,
         "create_user_on_auth": false,
         "disabled": false,
-        "return_type": "JSON"
+        "return_type": "EJSON"
     },
     {
-        "route": "/test10",
+        "route": "/test5",
         "http_method": "POST",
-        "function_name": "test2",
+        "function_name": "test1",
         "validation_method": "NO_VALIDATION",
         "respond_result": false,
         "fetch_custom_user_data": false,
