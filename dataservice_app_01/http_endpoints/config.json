@@ -1,5 +1,22 @@
 [
   {
+    "name": "hello10",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/hello10",
+    "data_source": {
+      "cluster_id": 3299139
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-hello10.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "hello09",
     "description": "",
     "method": "GET",
@@ -98,23 +115,6 @@
       "row_limit": 50
     },
     "sql_file": "sql/GET-hello05.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "hello03",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/hello03",
-    "data_source": {
-      "cluster_id": 3299139
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-hello03.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
