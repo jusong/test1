@@ -1,18 +1,17 @@
 [
   {
-    "name": "hello01",
-    "description": "",
+    "name": "hello001",
+    "description": "github build endpoint",
     "method": "GET",
-    "endpoint": "/hello01",
+    "endpoint": "/hello001",
     "data_source": {
       "cluster_id": 3299139
     },
-    "params": [],
     "settings": {
-      "timeout": 5000,
-      "row_limit": 50
+      "timeout": 30000,
+      "row_limit": 500
     },
-    "sql_file": "sql/GET-hello01.sql",
+    "sql_file": "sql/GET-hello001.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
