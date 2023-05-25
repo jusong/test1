@@ -1,25 +1,9 @@
 [
   {
-    "name": "hello001",
-    "description": "github build endpoint",
+    "name": "/hello07",
+    "description": "hello7%20endpoint%20desc",
     "method": "GET",
-    "endpoint": "/hello001",
-    "data_source": {
-      "cluster_id": 3299139
-    },
-    "settings": {
-      "timeout": 30000,
-      "row_limit": 500
-    },
-    "sql_file": "sql/GET-hello001.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "hello02",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/hello02",
+    "endpoint": "/hello07",
     "data_source": {
       "cluster_id": 3299139
     },
@@ -28,15 +12,15 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-hello02.sql",
+    "sql_file": "sql/GET-hello07.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
   {
-    "name": "hello03",
+    "name": "/hello06",
     "description": "",
     "method": "GET",
-    "endpoint": "/hello03",
+    "endpoint": "/hello06",
     "data_source": {
       "cluster_id": 3299139
     },
@@ -45,7 +29,7 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-hello03.sql",
+    "sql_file": "sql/GET-hello06.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -84,10 +68,10 @@
     "return_type": "json"
   },
   {
-    "name": "/hello06",
+    "name": "hello03",
     "description": "",
     "method": "GET",
-    "endpoint": "/hello06",
+    "endpoint": "/hello03",
     "data_source": {
       "cluster_id": 3299139
     },
@@ -96,15 +80,15 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-hello06.sql",
+    "sql_file": "sql/GET-hello03.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
   {
-    "name": "/hello07",
-    "description": "hello7%20endpoint%20desc",
+    "name": "hello02",
+    "description": "",
     "method": "GET",
-    "endpoint": "/hello07",
+    "endpoint": "/hello02",
     "data_source": {
       "cluster_id": 3299139
     },
@@ -113,7 +97,24 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-hello07.sql",
+    "sql_file": "sql/GET-hello02.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "hello01",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/hello01",
+    "data_source": {
+      "cluster_id": 3299139
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-hello01.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
