@@ -1,0 +1,121 @@
+[
+  {
+    "name": "hello01",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/hello01",
+    "data_source": {
+      "cluster_id": 3299139
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-hello01.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "hello02",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/hello02",
+    "data_source": {
+      "cluster_id": 3299139
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-hello02.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "hello03",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/hello03",
+    "data_source": {
+      "cluster_id": 3299139
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-hello03.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/hello04",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/hello04",
+    "data_source": {
+      "cluster_id": 3299139
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-hello04.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/hello05",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/hello05",
+    "data_source": {
+      "cluster_id": 3299139
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-hello05.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/hello06",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/hello06",
+    "data_source": {
+      "cluster_id": 3299139
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-hello06.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/hello07",
+    "description": "hello7%20endpoint%20desc",
+    "method": "GET",
+    "endpoint": "/hello07",
+    "data_source": {
+      "cluster_id": 3299139
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-hello07.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
