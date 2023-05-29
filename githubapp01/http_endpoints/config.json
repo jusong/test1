@@ -1,22 +1,5 @@
 [
   {
-    "name": "/hello",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/hello",
-    "data_source": {
-      "cluster_id": 2939317
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-hello.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
     "name": "/test",
     "description": "",
     "method": "GET",
