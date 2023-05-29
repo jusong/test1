@@ -9,7 +9,7 @@
     },
     "params": [],
     "settings": {
-      "timeout": 50000,
+      "timeout": 2000,
       "row_limit": 500
     },
     "sql_file": "sql/GET-deploy.sql",
