@@ -1,6 +1,6 @@
 [
   {
-    "name": "/deploy123",
+    "name": "/deploy12345",
     "description": "",
     "method": "POST",
     "endpoint": "/deploy11",
