@@ -1,7 +1,7 @@
 [
   {
     "name": "/hello",
-    "description": "this is hello",
+    "description": "",
     "method": "GET",
     "endpoint": "/hello",
     "data_source": {
