@@ -2,15 +2,15 @@
   {
     "name": "/deploy123",
     "description": "",
-    "method": "GET",
-    "endpoint": "/deploy",
+    "method": "POST",
+    "endpoint": "/deploy11",
     "data_source": {
       "cluster_id": 2939317
     },
     "params": [],
     "settings": {
-      "timeout": 5000,
-      "row_limit": 50
+      "timeout": 50000,
+      "row_limit": 500
     },
     "sql_file": "sql/GET-deploy.sql",
     "type": "sql_endpoint",
