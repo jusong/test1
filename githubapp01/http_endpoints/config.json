@@ -1,6 +1,6 @@
 [
   {
-    "name": "/deploy1",
+    "name": "/deploy123",
     "description": "",
     "method": "GET",
     "endpoint": "/deploy",
