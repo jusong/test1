@@ -1,6 +1,6 @@
 [
   {
-    "name": "/hello1111",
+    "name": "/hello",
     "description": "",
     "method": "GET",
     "endpoint": "/hello",
