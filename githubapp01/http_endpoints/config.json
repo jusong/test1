@@ -1,7 +1,7 @@
 [
   {
     "name": "/deploy456",
-    "description": "desc from deploy456",
+    "description": "",
     "method": "POST",
     "endpoint": "/deploy456",
     "data_source": {
@@ -12,7 +12,7 @@
       "timeout": 2000,
       "row_limit": 500
     },
-    "sql_file": "sql/POST-deploy11.sql",
+    "sql_file": "sql/POST-deploy456.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
