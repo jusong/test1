@@ -1,5 +1,22 @@
 [
   {
+    "name": "/deploy456",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/deploy456",
+    "data_source": {
+      "cluster_id": 2939317
+    },
+    "params": [],
+    "settings": {
+      "timeout": 2000,
+      "row_limit": 500
+    },
+    "sql_file": "sql/POST-deploy11.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "/deploy123",
     "description": "",
     "method": "POST",
