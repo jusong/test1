@@ -7,19 +7,12 @@
     "data_source": {
       "cluster_id": 1379661944642684105
     },
-    "params": [
-      {
-        "name": "limit",
-        "type": "number",
-        "required": 0,
-        "default": "3"
-      }
-    ],
+    "params": [],
     "settings": {
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-heelo.sql",
+    "sql_file": "sql/GET-heelo0.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
