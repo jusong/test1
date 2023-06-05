@@ -1,5 +1,29 @@
 [
   {
+    "name": "/heelo0",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/heelo0",
+    "data_source": {
+      "cluster_id": 1379661944642684105
+    },
+    "params": [
+      {
+        "name": "limit",
+        "type": "number",
+        "required": 0,
+        "default": "3"
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-heelo.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "/heelo",
     "description": "",
     "method": "GET",
