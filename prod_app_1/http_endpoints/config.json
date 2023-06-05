@@ -1,9 +1,9 @@
 [
   {
-    "name": "/heelo0",
+    "name": "/hello",
     "description": "",
     "method": "GET",
-    "endpoint": "/heelo0",
+    "endpoint": "/hello1",
     "data_source": {
       "cluster_id": 1379661944642684105
     },
@@ -12,7 +12,7 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-heelo0.sql",
+    "sql_file": "sql/GET-hello1.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -41,10 +41,10 @@
     "return_type": "json"
   },
   {
-    "name": "/hello",
+    "name": "/heelo0",
     "description": "",
     "method": "GET",
-    "endpoint": "/hello1",
+    "endpoint": "/heelo0",
     "data_source": {
       "cluster_id": 1379661944642684105
     },
@@ -53,24 +53,7 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-hello1.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/hello",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/hello",
-    "data_source": {
-      "cluster_id": 1379661944642684105
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-hello.sql",
+    "sql_file": "sql/GET-heelo0.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -95,6 +78,23 @@
       "row_limit": 50
     },
     "sql_file": "sql/GET-test_region.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/hello",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/hello",
+    "data_source": {
+      "cluster_id": 1379661944642684105
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "sql_file": "sql/GET-hello.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
