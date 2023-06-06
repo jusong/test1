@@ -33,7 +33,7 @@
       }
     ],
     "settings": {
-      "timeout": 5000,
+      "timeout": 10000,
       "row_limit": 50
     },
     "sql_file": "sql/GET-hello1.sql",
