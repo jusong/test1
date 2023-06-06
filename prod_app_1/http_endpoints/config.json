@@ -17,10 +17,10 @@
     "return_type": "json"
   },
   {
-    "name": "/heelo",
+    "name": "/heelo1",
     "description": "",
     "method": "GET",
-    "endpoint": "/heelo",
+    "endpoint": "/heelo1",
     "data_source": {
       "cluster_id": 1379661944642684105
     },
