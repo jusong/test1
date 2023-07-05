@@ -29,7 +29,7 @@
     "method": "POST",
     "endpoint": "/deploy11",
     "data_source": {
-      "cluster_id": 2939317
+      "cluster_id": 3779052
     },
     "params": [],
     "settings": {
@@ -46,7 +46,7 @@
     "method": "GET",
     "endpoint": "/test",
     "data_source": {
-      "cluster_id": 2939317
+      "cluster_id": 3779052
     },
     "params": [],
     "settings": {
