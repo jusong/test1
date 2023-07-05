@@ -24,7 +24,7 @@
     "return_type": "json"
   },
   {
-    "name": "/deploy123000",
+    "name": "/deploy123001",
     "description": "",
     "method": "POST",
     "endpoint": "/deploy11",
