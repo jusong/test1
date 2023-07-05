@@ -41,7 +41,7 @@
     "return_type": "json"
   },
   {
-    "name": "/hello",
+    "name": "/hello01",
     "description": "",
     "method": "GET",
     "endpoint": "/hello2",
@@ -53,7 +53,7 @@
         "name": "limit",
         "type": "number",
         "required": 0,
-        "default": "10"
+        "default": "20"
       }
     ],
     "settings": {
