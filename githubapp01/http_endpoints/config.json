@@ -1,7 +1,7 @@
 [
   {
     "name": "/deploy456",
-    "description": "",
+    "description": "hello endpoint",
     "method": "POST",
     "endpoint": "/deploy456",
     "data_source": {
@@ -12,7 +12,7 @@
         "name": "limit",
         "type": "number",
         "required": 1,
-        "default": "2"
+        "default": "10"
       }
     ],
     "settings": {
