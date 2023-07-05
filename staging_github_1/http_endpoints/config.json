@@ -1,9 +1,9 @@
 [
   {
-    "name": "define",
+    "name": "define001",
     "description": "",
     "method": "GET",
-    "endpoint": "/define",
+    "endpoint": "/define_001",
     "data_source": {
       "cluster_id": 1373933076659590572
     },
