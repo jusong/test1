@@ -20,7 +20,7 @@
     "name": "/heelo1_v1",
     "description": "hello1_v1",
     "method": "GET",
-    "endpoint": "/heelo1",
+    "endpoint": "/heelo1_v1",
     "data_source": {
       "cluster_id": 1379661944642684105
     },
