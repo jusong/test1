@@ -24,7 +24,7 @@
     "return_type": "json"
   },
   {
-    "name": "/deploy123",
+    "name": "/deploy123000",
     "description": "",
     "method": "POST",
     "endpoint": "/deploy11",
@@ -34,7 +34,7 @@
     "params": [],
     "settings": {
       "timeout": 2000,
-      "row_limit": 500
+      "row_limit": 100
     },
     "sql_file": "sql/POST-deploy11.sql",
     "type": "sql_endpoint",
