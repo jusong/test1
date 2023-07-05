@@ -17,8 +17,8 @@
     "return_type": "json"
   },
   {
-    "name": "/heelo1",
-    "description": "hello1",
+    "name": "/heelo1_v1",
+    "description": "hello1_v1",
     "method": "GET",
     "endpoint": "/heelo1",
     "data_source": {
