@@ -1,16 +1,16 @@
 [
   {
-    "name": "/dfdf",
+    "name": "define",
     "description": "",
     "method": "GET",
-    "endpoint": "/dfdf",
+    "endpoint": "/define",
     "data_source": {
       "cluster_id": 1373933076660550624
     },
     "params": [],
     "settings": {
       "timeout": 5000,
-      "row_limit": 50
+      "row_limit": 500
     },
     "sql_file": "sql/GET-dfdf.sql",
     "type": "sql_endpoint",
