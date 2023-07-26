@@ -1,22 +1,5 @@
 [
   {
-    "name": "/heelo0",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/heelo0",
-    "data_source": {
-      "cluster_id": 1379661944642684105
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 50
-    },
-    "sql_file": "sql/GET-heelo0.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
     "name": "/heelo1_v1",
     "description": "hello1_v1",
     "method": "GET",
@@ -36,7 +19,28 @@
       "timeout": 5000,
       "row_limit": 50
     },
-    "sql_file": "sql/GET-heelo.sql",
+    "tag": "",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-heelo1_v1.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/heelo0",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/heelo0",
+    "data_source": {
+      "cluster_id": 1379661944642684105
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50
+    },
+    "tag": "",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-heelo0.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -53,6 +57,8 @@
       "timeout": 5000,
       "row_limit": 50
     },
+    "tag": "",
+    "batch_operation": 0,
     "sql_file": "sql/GET-hello1.sql",
     "type": "sql_endpoint",
     "return_type": "json"
@@ -70,6 +76,8 @@
       "timeout": 5000,
       "row_limit": 50
     },
+    "tag": "",
+    "batch_operation": 0,
     "sql_file": "sql/GET-hello.sql",
     "type": "sql_endpoint",
     "return_type": "json"
@@ -80,20 +88,15 @@
     "method": "GET",
     "endpoint": "/test_region",
     "data_source": {
-      "cluster_id": 1379661944642684105
+      "cluster_id": 1379661944639474084
     },
-    "params": [
-      {
-        "name": "limit",
-        "type": "number",
-        "required": 0,
-        "default": "3"
-      }
-    ],
+    "params": [],
     "settings": {
-      "timeout": 5000,
+      "timeout": 30000,
       "row_limit": 50
     },
+    "tag": "",
+    "batch_operation": 0,
     "sql_file": "sql/GET-test_region.sql",
     "type": "sql_endpoint",
     "return_type": "json"
