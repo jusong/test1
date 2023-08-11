@@ -1,22 +1,5 @@
 [
   {
-    "name": "define001",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/define_001",
-    "data_source": {
-      "cluster_id": 1373933076659590572
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 500
-    },
-    "sql_file": "sql/GET-dfdf.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
     "name": "/hello",
     "description": "",
     "method": "GET",
@@ -29,7 +12,28 @@
       "timeout": 5000,
       "row_limit": 50
     },
+    "tag": "",
+    "batch_operation": 0,
     "sql_file": "sql/GET-hello.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "define001",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/define_001",
+    "data_source": {
+      "cluster_id": 1373933076659590572
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 500
+    },
+    "tag": "",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-define_001.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
