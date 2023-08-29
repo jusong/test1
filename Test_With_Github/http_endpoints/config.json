@@ -9,8 +9,8 @@
     },
     "params": [],
     "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
+      "timeout": 20000,
+      "row_limit": 1200,
       "cache_enabled": 1,
       "cache_ttl": 100,
       "enable_pagination": 1
