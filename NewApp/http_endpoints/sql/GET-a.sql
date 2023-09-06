@@ -5,4 +5,5 @@ Declare a parameter like "Where id = ${arg}".
 */
 use commentator;
 show tables;
+
 select * from comment_jobs;
