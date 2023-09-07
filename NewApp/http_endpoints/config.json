@@ -22,6 +22,251 @@
     "return_type": "json"
   },
   {
+    "name": "comment_jobs",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/comment_jobs",
+    "data_source": {
+      "cluster_id": 1379661944646229772
+    },
+    "params": [
+      {
+        "name": "type",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "user_id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "content",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "status",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "commentary",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "created_at",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "updated_at",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "next_retry",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "retry_times",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "err_message",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-comment_jobs.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "comment_jobs",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/comment_jobs",
+    "data_source": {
+      "cluster_id": 1379661944646229772
+    },
+    "params": [
+      {
+        "name": "type",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "user_id",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "content",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "status",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "commentary",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "created_at",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "updated_at",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "next_retry",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "retry_times",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "err_message",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-comment_jobs.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "comment_jobs",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/comment_jobs",
+    "data_source": {
+      "cluster_id": 1379661944646229772
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/DELETE-comment_jobs.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "untitled endpoint_copy",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/a_dump_hBKoWw",
+    "data_source": {
+      "cluster_id": 1379661944646229772
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-a_dump_hBKoWw.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "untitled endpoint",
     "description": "",
     "method": "GET",
