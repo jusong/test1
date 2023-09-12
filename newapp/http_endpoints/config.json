@@ -2,6 +2,28 @@
   {
     "name": "sold_car_orders",
     "description": "",
+    "method": "GET",
+    "endpoint": "/sold_car_orders",
+    "data_source": {
+      "cluster_id": 1373933076662407098
+    },
+    "params": [],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 100,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 1
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-sold_car_orders.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "sold_car_orders",
+    "description": "",
     "method": "POST",
     "endpoint": "/sold_car_orders",
     "data_source": {
@@ -334,28 +356,6 @@
     "tag": "Default",
     "batch_operation": 1,
     "sql_file": "sql/PUT-sold_car_orders_batch.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "sold_car_orders",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/sold_car_orders",
-    "data_source": {
-      "cluster_id": 1373933076662407098
-    },
-    "params": [],
-    "settings": {
-      "timeout": 5000,
-      "row_limit": 100,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 1
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-sold_car_orders.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
