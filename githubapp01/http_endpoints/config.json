@@ -1,5 +1,42 @@
 [
   {
+    "name": "/hello",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/hello",
+    "data_source": {
+      "cluster_id": 3779052
+    },
+    "params": [
+      {
+        "name": "users",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "limit",
+        "type": "number",
+        "required": 0,
+        "default": "10",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 5000,
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-hello.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "/deploy456",
     "description": "hello endpoint",
     "method": "POST",
@@ -12,13 +49,19 @@
         "name": "limit",
         "type": "number",
         "required": 1,
-        "default": "10"
+        "default": "10",
+        "description": ""
       }
     ],
     "settings": {
       "timeout": 2000,
-      "row_limit": 500
+      "row_limit": 500,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
     },
+    "tag": "Default",
+    "batch_operation": 0,
     "sql_file": "sql/POST-deploy456.sql",
     "type": "sql_endpoint",
     "return_type": "json"
@@ -34,8 +77,13 @@
     "params": [],
     "settings": {
       "timeout": 2000,
-      "row_limit": 100
+      "row_limit": 200,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
     },
+    "tag": "",
+    "batch_operation": 0,
     "sql_file": "sql/POST-deploy11.sql",
     "type": "sql_endpoint",
     "return_type": "json"
@@ -51,8 +99,13 @@
     "params": [],
     "settings": {
       "timeout": 5000,
-      "row_limit": 50
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
     },
+    "tag": "",
+    "batch_operation": 0,
     "sql_file": "sql/GET-test.sql",
     "type": "sql_endpoint",
     "return_type": "json"
