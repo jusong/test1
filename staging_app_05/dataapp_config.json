@@ -1,5 +1,7 @@
 {
   "app_id": "dataapp-iQjLsCYv",
   "app_name": "my staging app 05",
-  "app_type": "dataapi"
+  "app_type": "dataapp",
+  "description": "",
+  "app_version": "1.0.0"
 }
