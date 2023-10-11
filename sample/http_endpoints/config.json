@@ -40,11 +40,12 @@
     },
     "params": [
       {
-        "name": "year",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "Year"
+        "name": "years",
+        "type": "array",
+        "required": 0,
+        "default": "2018",
+        "description": "",
+        "item_type": "string"
       },
       {
         "name": "N",
