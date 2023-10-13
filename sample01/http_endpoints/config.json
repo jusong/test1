@@ -1,52 +1,19 @@
 [
   {
-    "name": "/test_array",
+    "name": "fortune500_2018_2022",
     "description": "",
     "method": "GET",
-    "endpoint": "/test_array",
+    "endpoint": "/fortune500_2018_2022",
     "data_source": {
       "cluster_id": 10079301600761418519
     },
     "params": [
       {
-        "name": "countrys",
-        "type": "array",
-        "required": 0,
-        "default": "China,Japan",
-        "description": "",
-        "item_type": "string"
-      },
-      {
-        "name": "ids",
-        "type": "array",
-        "required": 1,
-        "default": "",
-        "description": "",
-        "item_type": "integer"
-      },
-      {
         "name": "id",
-        "type": "integer",
+        "type": "number",
         "required": 1,
         "default": "",
-        "description": "",
-        "enum": "1,2,3"
-      },
-      {
-        "name": "country",
-        "type": "string",
-        "required": 0,
-        "default": "China",
-        "description": "",
-        "enum": "China,Japan,USA"
-      },
-      {
-        "name": "ec",
-        "type": "array",
-        "required": 0,
-        "default": "0.1,0.5",
-        "description": "",
-        "item_type": "number"
+        "description": ""
       }
     ],
     "settings": {
@@ -58,7 +25,507 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/GET-test_array.sql",
+    "sql_file": "sql/GET-fortune500_2018_2022.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "fortune500_2018_2022",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/fortune500_2018_2022",
+    "data_source": {
+      "cluster_id": 10079301600761418519
+    },
+    "params": [
+      {
+        "name": "rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "country",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "employees_num",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "employees_num_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "previous_rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revenues_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revene_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "asset_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "asset_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-fortune500_2018_2022.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "fortune500_2018_2022",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/fortune500_2018_2022",
+    "data_source": {
+      "cluster_id": 10079301600761418519
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "country",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "employees_num",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "employees_num_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "previous_rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revenues_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revene_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "asset_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "asset_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-fortune500_2018_2022.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "fortune500_2018_2022",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/fortune500_2018_2022",
+    "data_source": {
+      "cluster_id": 10079301600761418519
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/DELETE-fortune500_2018_2022.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "fortune500_2018_2022_batch",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/fortune500_2018_2022_batch",
+    "data_source": {
+      "cluster_id": 10079301600761418519
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "country",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "employees_num",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "employees_num_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "previous_rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revenues_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revene_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "asset_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "asset_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/PUT-fortune500_2018_2022_batch.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "fortune500_2018_2022_batch",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/fortune500_2018_2022_batch",
+    "data_source": {
+      "cluster_id": 10079301600761418519
+    },
+    "params": [
+      {
+        "name": "rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "country",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "employees_num",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "employees_num_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "previous_rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revenues_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revene_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "asset_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "asset_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 50,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/POST-fortune500_2018_2022_batch.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -186,6 +653,69 @@
     "tag": "Default",
     "batch_operation": 0,
     "sql_file": "sql/GET-api-countries-top500CountByCountry.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/test_array",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test_array",
+    "data_source": {
+      "cluster_id": 10079301600761418519
+    },
+    "params": [
+      {
+        "name": "countrys",
+        "type": "array",
+        "required": 0,
+        "default": "China,Japan",
+        "description": "",
+        "item_type": "string"
+      },
+      {
+        "name": "ids",
+        "type": "array",
+        "required": 1,
+        "default": "",
+        "description": "",
+        "item_type": "integer"
+      },
+      {
+        "name": "id",
+        "type": "integer",
+        "required": 1,
+        "default": "",
+        "description": "",
+        "enum": "1,2,3"
+      },
+      {
+        "name": "country",
+        "type": "string",
+        "required": 0,
+        "default": "China",
+        "description": "",
+        "enum": "China,Japan,USA"
+      },
+      {
+        "name": "ec",
+        "type": "array",
+        "required": 0,
+        "default": "0.1,0.5",
+        "description": "",
+        "item_type": "number"
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-test_array.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
