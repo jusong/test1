@@ -8,6 +8,4 @@ SELECT
 FROM
 	fortune500.fortune500_2018_2022
 WHERE
-	`company_name` in (${companyName})
-ORDER BY
-	`year`;
+	`company_name` =${start}
