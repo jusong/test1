@@ -1,3 +1,3 @@
 USE sample_data;
 
-select * from sold_car_orders limit 1;
+select * from sold_car_orders limit 10;
