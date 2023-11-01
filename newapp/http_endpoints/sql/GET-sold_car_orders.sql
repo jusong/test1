@@ -1,3 +1,5 @@
-USE sample_data;
 
-select * from sold_car_orders limit 10;
+use test_no_autoping;
+
+
+select * from user limit 10;
