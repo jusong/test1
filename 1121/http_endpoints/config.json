@@ -2,7 +2,7 @@
   {
     "name": "/asdfsdfasdf",
     "description": "",
-    "method": "GET",
+    "method": "GET01",
     "endpoint": "/asdfsdf",
     "data_source": {
       "cluster_id": 10431196097624190846
