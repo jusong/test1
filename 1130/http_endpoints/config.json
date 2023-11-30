@@ -1,0 +1,828 @@
+[
+  {
+    "name": "/sold_car_orders",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/sold_car_orders",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-sold_car_orders.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/sold_car_orders",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/sold_car_orders",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "selling_price",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "km_driven",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "fuel",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "seller_type",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "transmission",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "owner",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-sold_car_orders.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/sold_car_orders",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/sold_car_orders",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "selling_price",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "km_driven",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "fuel",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "seller_type",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "transmission",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "owner",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-sold_car_orders.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/sold_car_orders",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/sold_car_orders",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/DELETE-sold_car_orders.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/sold_car_orders/bulk",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/sold_car_orders/bulk",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "selling_price",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "km_driven",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "fuel",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "seller_type",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "transmission",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "owner",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/PUT-sold_car_orders-bulk.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/sold_car_orders/bulk",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/sold_car_orders/bulk",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "selling_price",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "km_driven",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "fuel",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "seller_type",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "transmission",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "owner",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/POST-sold_car_orders-bulk.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/global_fortune_500_2018_2022_copy",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/global_fortune_500_2018_20220",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-global_fortune_500_2018_20220.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/global_fortune_500_2018_2022",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/global_fortune_500_2018_2022",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-global_fortune_500_2018_2022.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/global_fortune_500_2018_2022",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/global_fortune_500_2018_2022",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [
+      {
+        "name": "rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "country",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "employees_num",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "previous_rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revenues_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revene_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "asset_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-global_fortune_500_2018_2022.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/global_fortune_500_2018_2022",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/global_fortune_500_2018_2022",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [
+      {
+        "name": "rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "country",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "employees_num",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "previous_rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revenues_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revene_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "asset_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-global_fortune_500_2018_2022.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/global_fortune_500_2018_2022",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/global_fortune_500_2018_2022",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/DELETE-global_fortune_500_2018_2022.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/global_fortune_500_2018_2022/bulk",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/global_fortune_500_2018_2022/bulk",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [
+      {
+        "name": "rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "country",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "employees_num",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "previous_rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revenues_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revene_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "asset_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/PUT-global_fortune_500_2018_2022-bulk.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/global_fortune_500_2018_2022/bulk",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/global_fortune_500_2018_2022/bulk",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [
+      {
+        "name": "rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "company_name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "country",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "employees_num",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "previous_rank",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revenues_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "revene_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "profit_change_percentage",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "asset_million",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/POST-global_fortune_500_2018_2022-bulk.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
