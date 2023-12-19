@@ -1,0 +1,2 @@
+USE GPT;
+INSERT INTO `UPPER` (`U`) VALUES(${U});
