@@ -1,9 +1,9 @@
 [
   {
-    "name": "/test1",
+    "name": "/system/data/executeQuery",
     "description": "",
-    "method": "GET",
-    "endpoint": "/test1",
+    "method": "POST",
+    "endpoint": "/system/data/executeQuery",
     "data_source": {
       "cluster_id": 10423713453386308570
     },
@@ -17,7 +17,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/GET-test1.sql",
+    "sql_file": "sql/POST-system-data-executeQuery.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
