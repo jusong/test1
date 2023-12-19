@@ -18,7 +18,7 @@
     "tag": "Default",
     "batch_operation": 0,
     "sql_file": "sql/POST-system-data-executeQuery.sql",
-    "type": "system-data",
+    "type": "chat2sql",
     "return_type": "json"
   },
   {
