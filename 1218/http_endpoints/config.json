@@ -73,24 +73,24 @@
         "description": "TiDB Cluster to use"
       },
       {
+        "name": "sql",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "SQL statement1"
+      },
+      {
         "name": "database",
         "type": "string",
         "required": 1,
         "default": "",
         "description": "Database within the cluster"
-      },
-      {
-        "name": "sql",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "SQL statement"
       }
     ],
     "settings": {
       "timeout": 30000,
       "row_limit": 1000,
-      "cache_enabled": 1,
+      "cache_enabled": 0,
       "cache_ttl": 0,
       "enable_pagination": 0
     },
