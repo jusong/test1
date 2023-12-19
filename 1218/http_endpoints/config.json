@@ -18,7 +18,7 @@
     "tag": "Default",
     "batch_operation": 0,
     "sql_file": "sql/POST-system-data-executeQuery.sql",
-    "type": "sql_endpoint",
+    "type": "system-data",
     "return_type": "json"
   },
   {
