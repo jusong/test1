@@ -1,5 +1,27 @@
 [
   {
+    "name": "/test1",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test1",
+    "data_source": {
+      "cluster_id": 10423713453386308570
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-test1.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "GPT_metadata_batch",
     "description": "",
     "method": "PUT",
@@ -56,69 +78,6 @@
     "tag": "Default",
     "batch_operation": 1,
     "sql_file": "sql/POST-UPPER_batch.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/system/data/executeQuery",
-    "description": "",
-    "method": "POST",
-    "endpoint": "/system/data/executeQuery",
-    "params": [
-      {
-        "name": "cluster_id",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "Your tidb cluster id"
-      },
-      {
-        "name": "database",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "Your tidb cluster database"
-      },
-      {
-        "name": "sql",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "Your sql"
-      }
-    ],
-    "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "System/Data",
-    "batch_operation": 0,
-    "sql_file": "",
-    "type": "system-data",
-    "return_type": "json"
-  },
-  {
-    "name": "/test1",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/test1",
-    "data_source": {
-      "cluster_id": 10423713453386308570
-    },
-    "params": [],
-    "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-test1.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
