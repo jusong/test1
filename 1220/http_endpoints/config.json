@@ -20,7 +20,7 @@
     "sql_file": "sql/GET-common_endpoint.sql",
     "settings": {
       "timeout": 10000,
-      "row_limit": 300,
+      "row_limit": 400,
       "cache_enabled": 0,
       "cache_ttl": 0,
       "enable_pagination": 0
@@ -35,29 +35,17 @@
     "description": "Perform both read and write operations, allowing execution of any SQL statement. Caution: This endpoint is powerful and versatile but can be potentially destructive.  Use with discretion and ensure the queries are secure and well-considered to prevent unintended consequences.",
     "method": "POST",
     "endpoint": "/system/data/executeQuery1",
-    "params": [
+"params": [
       {
-        "name": "cluster_id",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "TiDB Cluster to use"
-      },
-      {
-        "name": "database",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "Database within the cluster"
-      },
-      {
-        "name": "sql",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "SQL statement"
+        "name": "limit",
+        "type": "number",
+        "required": 0,
+        "default": "10",
+        "description": "limit count",
+        "enum": "10,20"
       }
-    ],
+    ]
+    ,
     "settings": {
       "timeout": 10000,
       "row_limit": 300,
@@ -67,8 +55,11 @@
     },
     "tag": "System/Data",
     "batch_operation": 0,
-    "sql_file": "",
+    "data_source": {
+      "cluster_id": 10079301600761418519
+    },
     "type": "sql_endpoint",
+    "sql_file": "sql/GET-common_endpoint.sql",
     "return_type": "json"
   },
   {
