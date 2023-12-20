@@ -27,6 +27,7 @@
         "description": "SQL statement"
       }
     ],
+    "sql_file": "sql/GET-common_endpoint.sql",
     "settings": {
       "timeout": 10000,
       "row_limit": 300,
