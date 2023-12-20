@@ -9,25 +9,12 @@
     },
     "params": [
       {
-        "name": "cluster_id",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "TiDB Cluster to use"
-      },
-      {
-        "name": "database",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "Database within the cluster"
-      },
-      {
-        "name": "sql",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "SQL statement"
+        "name": "limit",
+        "type": "number",
+        "required": 0,
+        "default": "10",
+        "description": "limit count",
+        "enum": "10,20"
       }
     ],
     "sql_file": "sql/GET-common_endpoint.sql",
