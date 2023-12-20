@@ -3,4 +3,4 @@ Enter "USE {database};" before entering your SQL statements.
 Type "--your question" + Enter to try out AI-generated SQL queries
 Declare a parameter like "Where id = ${arg}".
 */
-SELECT "Hello World";
+select * from fortune500.fortune500_2018_2022 limit ${limit}

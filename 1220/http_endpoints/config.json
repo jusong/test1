@@ -42,21 +42,30 @@
   },
   {
     "name": "/common_endpoint",
-    "description": "",
+    "description": "dsfadf",
     "method": "GET",
     "endpoint": "/common_endpoint",
     "data_source": {
       "cluster_id": 10079301600761418519
     },
-    "params": [],
+    "params": [
+      {
+        "name": "limit",
+        "type": "number",
+        "required": 0,
+        "default": "10",
+        "description": "limit count",
+        "enum": "10,20"
+      }
+    ],
     "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
+      "timeout": 5000,
+      "row_limit": 50,
+      "cache_enabled": 1,
+      "cache_ttl": 100,
+      "enable_pagination": 1
     },
-    "tag": "Default",
+    "tag": "Default/Common",
     "batch_operation": 0,
     "sql_file": "sql/GET-common_endpoint.sql",
     "type": "sql_endpoint",
