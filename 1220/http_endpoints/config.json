@@ -27,7 +27,7 @@
     },
     "tag": "System/Data",
     "batch_operation": 0,
-    "type": "sql_endpoint",
+    "type": "system-data",
     "return_type": "json"
   },
   {
