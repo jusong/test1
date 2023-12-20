@@ -34,7 +34,7 @@
     "name": "/system/data/executeQuery",
     "description": "Perform both read and write operations, allowing execution of any SQL statement. Caution: This endpoint is powerful and versatile but can be potentially destructive.  Use with discretion and ensure the queries are secure and well-considered to prevent unintended consequences.",
     "method": "POST",
-    "endpoint": "/system/data/executeQuery",
+    "endpoint": "/system/data/executeQuery1",
     "params": [
       {
         "name": "cluster_id",
