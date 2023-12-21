@@ -77,7 +77,7 @@
         "type": "string",
         "required": 1,
         "default": "",
-        "description": "SQL statement2"
+        "description": "SQL statement"
       },
       {
         "name": "database",
