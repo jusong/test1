@@ -86,7 +86,7 @@
         "type": "string",
         "required": 1,
         "default": "",
-        "description": "Database within the cluster"
+        "description": "Database within the cluster1"
       }
     ],
     "settings": {
