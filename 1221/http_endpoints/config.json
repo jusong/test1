@@ -128,7 +128,7 @@
   },
   {
     "name": "/test",
-    "description": "",
+    "description": "+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@!/+ Test*#@",
     "method": "GET",
     "endpoint": "/test",
     "data_source": {
@@ -137,7 +137,7 @@
     "params": [],
     "settings": {
       "timeout": 30000,
-      "row_limit": 1000,
+      "row_limit": 500,
       "cache_enabled": 0,
       "cache_ttl": 0,
       "enable_pagination": 0
