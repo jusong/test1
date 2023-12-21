@@ -91,7 +91,7 @@
     ],
     "settings": {
       "timeout": 30000,
-      "row_limit": 1000,
+      "row_limit": 1000
     },
     "tag": "System/Data",
     "type": "system-data",
