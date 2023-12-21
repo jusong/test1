@@ -91,9 +91,14 @@
     ],
     "settings": {
       "timeout": 30000,
-      "row_limit": 1000
+      "row_limit": 2,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
     },
     "tag": "System/Data",
+    "batch_operation": 0,
+    "sql_file": "",
     "type": "system-data",
     "return_type": "json"
   }
