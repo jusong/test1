@@ -73,18 +73,18 @@
         "description": "TiDB Cluster to use"
       },
       {
-        "name": "sql",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "SQL statement"
-      },
-      {
         "name": "database",
         "type": "string",
         "required": 1,
         "default": "",
         "description": "Database within the cluster"
+      },
+      {
+        "name": "sql",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "SQL statement"
       }
     ],
     "settings": {
