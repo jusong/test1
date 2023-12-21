@@ -72,7 +72,7 @@
         "type": "string",
         "required": 1,
         "default": "",
-        "description": "TiDB Cluster to use1"
+        "description": "TiDB Cluster to use"
       },
       {
         "name": "sql",
