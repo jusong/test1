@@ -90,7 +90,7 @@
       }
     ],
     "settings": {
-      "timeout": 30000,
+      "timeout": 10,
       "row_limit": 2,
       "cache_enabled": 0,
       "cache_ttl": 0,
