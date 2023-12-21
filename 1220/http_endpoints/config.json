@@ -60,5 +60,41 @@
     "sql_file": "sql/POST-system-data-executeQuery1.sql",
     "type": "sql_endpoint",
     "return_type": "json"
+  },
+  {
+    "name": "/system/data/executeQuery",
+    "description": "Perform both read and write operations, allowing execution of any SQL statement. Caution: This endpoint is powerful and versatile but can be potentially destructive.  Use with discretion and ensure the queries are secure and well-considered to prevent unintended consequences.",
+    "method": "POST",
+    "endpoint": "/system/data/executeQuery",
+    "params": [
+      {
+        "name": "cluster_id",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "TiDB Cluster to use1"
+      },
+      {
+        "name": "sql",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "SQL statement"
+      },
+      {
+        "name": "database",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "Database within the cluster"
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+    },
+    "tag": "System/Data",
+    "type": "system-data",
+    "return_type": "json"
   }
 ]
