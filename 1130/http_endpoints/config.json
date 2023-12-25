@@ -1,387 +1,5 @@
 [
   {
-    "name": "/sold_car_orders",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/sold_car_orders",
-    "data_source": {
-      "cluster_id": 10340145369517990849
-    },
-    "params": [],
-    "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-sold_car_orders.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/sold_car_orders",
-    "description": "",
-    "method": "POST",
-    "endpoint": "/sold_car_orders",
-    "data_source": {
-      "cluster_id": 10340145369517990849
-    },
-    "params": [
-      {
-        "name": "name",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": "This API endpoint tracks pull request (PR) activities across GitHub repositories that are part of a specified collection. It compares PR data over two selected time periods, providing insights into: The total number of pull requests made.  The growth of pull requests in the current period compared to the previous period.  The ranking of each repository by the number of pull requests in the current period.  The percentage change in the total number of pull requests from one period to the next.  The change in rank position between the two periods for each repository.  The endpoint is flexible to analyze either the past month or a span of 56 days, allowing users to gauge the momentum and collaborative progress within the collection's repositories. It's a useful %298989This API endpoint tracks pull request (PR) activities across GitHub repositories that are part of a specified collection. It compares PR data over two selected time periods, providing insights into: The total number of pull requests made.  The growth of pull requests in the current period compared to the previous period.  The ranking of each repository by the number of pull requests in the current period.  The percentage change in the total number of pull requests from one period to the next.  The change in rank position between the two periods for each repository.  The endpoint is flexible to analyze either the past month or a span of 56 days, allowing users to gauge the momentum and collaborative progress within the collection's repositories. It's a useful %298989This API endpoint tracks pull request (PR) activities across GitHub repositories that are part of a specified collection. It compares PR data over two selected time periods, providing insights into: The total number of pull requests made.  The growth of pull requests in the current period compared to the previous period.  The ranking of each repository by the number of pull requests in the current period.  The percentage change in the total number of pul"
-      },
-      {
-        "name": "year",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "selling_price",
-        "type": "number",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "km_driven",
-        "type": "number",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "fuel",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "seller_type",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "transmission",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "owner",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      }
-    ],
-    "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/POST-sold_car_orders.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/sold_car_orders",
-    "description": "",
-    "method": "PUT",
-    "endpoint": "/sold_car_orders",
-    "data_source": {
-      "cluster_id": 10340145369517990849
-    },
-    "params": [
-      {
-        "name": "name",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "year",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "selling_price",
-        "type": "number",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "km_driven",
-        "type": "number",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "fuel",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "seller_type",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "transmission",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "owner",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      }
-    ],
-    "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/PUT-sold_car_orders.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/sold_car_orders",
-    "description": "",
-    "method": "DELETE",
-    "endpoint": "/sold_car_orders",
-    "data_source": {
-      "cluster_id": 10340145369517990849
-    },
-    "params": [],
-    "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/DELETE-sold_car_orders.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/sold_car_orders/bulk",
-    "description": "",
-    "method": "PUT",
-    "endpoint": "/sold_car_orders/bulk",
-    "data_source": {
-      "cluster_id": 10340145369517990849
-    },
-    "params": [
-      {
-        "name": "name",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "year",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "selling_price",
-        "type": "number",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "km_driven",
-        "type": "number",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "fuel",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "seller_type",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "transmission",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "owner",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      }
-    ],
-    "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 1,
-    "sql_file": "sql/PUT-sold_car_orders-bulk.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/sold_car_orders/bulk",
-    "description": "",
-    "method": "POST",
-    "endpoint": "/sold_car_orders/bulk",
-    "data_source": {
-      "cluster_id": 10340145369517990849
-    },
-    "params": [
-      {
-        "name": "name",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "year",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "selling_price",
-        "type": "number",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "km_driven",
-        "type": "number",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "fuel",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "seller_type",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "transmission",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "owner",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      }
-    ],
-    "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 1,
-    "sql_file": "sql/POST-sold_car_orders-bulk.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "/global_fortune_500_2018_2022_copy",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/global_fortune_500_2018_20220",
-    "data_source": {
-      "cluster_id": 10340145369517990849
-    },
-    "params": [],
-    "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-global_fortune_500_2018_20220.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
     "name": "/global_fortune_500_2018_2022",
     "description": "",
     "method": "GET",
@@ -823,6 +441,429 @@
     "batch_operation": 1,
     "sql_file": "sql/POST-global_fortune_500_2018_2022-bulk.sql",
     "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/global_fortune_500_2018_2022_copy",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/global_fortune_500_2018_20220",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-global_fortune_500_2018_20220.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/sold_car_orders",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/sold_car_orders",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-sold_car_orders.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/sold_car_orders",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/sold_car_orders",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "selling_price",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "km_driven",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "fuel",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "seller_type",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "transmission",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "owner",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-sold_car_orders.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/sold_car_orders",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/sold_car_orders",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "selling_price",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "km_driven",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "fuel",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "seller_type",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "transmission",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "owner",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-sold_car_orders.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/sold_car_orders",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/sold_car_orders",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/DELETE-sold_car_orders.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/sold_car_orders/bulk",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/sold_car_orders/bulk",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "selling_price",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "km_driven",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "fuel",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "seller_type",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "transmission",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "owner",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/PUT-sold_car_orders-bulk.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/sold_car_orders/bulk",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/sold_car_orders/bulk",
+    "data_source": {
+      "cluster_id": 10340145369517990849
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "selling_price",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "km_driven",
+        "type": "number",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "fuel",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "seller_type",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "transmission",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "owner",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/POST-sold_car_orders-bulk.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/system/query",
+    "description": "This API is used for executing any SQL statement for specified cluster and database.",
+    "method": "POST",
+    "endpoint": "/system/query",
+    "params": [
+      {
+        "name": "cluster_id",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "TiDB Cluster to use"
+      },
+      {
+        "name": "database",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "Database within the cluster"
+      },
+      {
+        "name": "sql",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "SQL statement"
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "System/Data",
+    "batch_operation": 0,
+    "sql_file": "",
+    "type": "system-data",
     "return_type": "json"
   }
 ]
