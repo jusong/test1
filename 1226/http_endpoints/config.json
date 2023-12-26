@@ -67,8 +67,8 @@
       {
         "name": "cluster_id",
         "type": "string",
-        "required": 1,
-        "default": "10997669881576035414",
+        "required": 0,
+        "default": "10997669881576035410",
         "description": "TiDB Cluster to use"
       },
       {
