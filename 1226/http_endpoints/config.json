@@ -1,23 +1,38 @@
 [
   {
-    "name": "/v1/get",
+    "name": "/a",
     "description": "",
     "method": "GET",
-    "endpoint": "/v1/get",
+    "endpoint": "/a",
     "data_source": {
-      "cluster_id": 10341551889566978042
+      "cluster_id": 1379661944642684105
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-a.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "untitled endpoint2",
+    "description": "sdfasdfadsfasdf",
+    "method": "GET",
+    "endpoint": "/a2",
+    "data_source": {
+      "cluster_id": 1379661944646285021
     },
     "params": [
       {
-        "name": "post_id",
+        "name": "tb",
         "type": "string",
-        "required": 0,
-        "default": "",
-        "description": ""
-      },
-      {
-        "name": "start",
-        "type": "number",
         "required": 0,
         "default": "",
         "description": ""
@@ -30,19 +45,41 @@
       "cache_ttl": 0,
       "enable_pagination": 0
     },
-    "tag": "Default",
+    "tag": "Tag2",
     "batch_operation": 0,
-    "sql_file": "sql/GET-v1-get.sql",
+    "sql_file": "sql/GET-a2.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
   {
-    "name": "/system/query",
+    "name": "/a",
     "description": "",
     "method": "GET",
-    "endpoint": "/system/query",
+    "endpoint": "/abc",
     "data_source": {
-      "cluster_id": 10997669881576035414
+      "cluster_id": 1379661944642684105
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 1
+    },
+    "tag": "Tag1",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-abc.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/untitled_endpoint",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/hello",
+    "data_source": {
+      "cluster_id": 1379661944646285021
     },
     "params": [],
     "settings": {
@@ -54,7 +91,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/GET-system-query.sql",
+    "sql_file": "sql/GET-hello.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -68,14 +105,14 @@
         "name": "cluster_id",
         "type": "string",
         "required": 0,
-        "default": "10997669881576035412",
+        "default": "1379661944646285021",
         "description": "TiDB Cluster to use"
       },
       {
         "name": "database",
         "type": "string",
         "required": 0,
-        "default": "test",
+        "default": "a",
         "description": "Database within the cluster"
       },
       {
@@ -88,7 +125,7 @@
     ],
     "settings": {
       "timeout": 30000,
-      "row_limit": 200,
+      "row_limit": 500,
       "cache_enabled": 0,
       "cache_ttl": 0,
       "enable_pagination": 0
