@@ -186,8 +186,8 @@
       }
     ],
     "settings": {
-      "timeout": 4000,
-      "row_limit": 1000,
+      "timeout": 5000,
+      "row_limit": 50,
       "cache_enabled": 0,
       "cache_ttl": 0,
       "enable_pagination": 0
