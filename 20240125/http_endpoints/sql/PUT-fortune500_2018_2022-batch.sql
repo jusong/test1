@@ -1,10 +1,8 @@
 USE fortune500;
 
-
 UPDATE `fortune500_2018_2022` SET `rank` = IF(${rank}<>0,${rank},`rank`),
 `company_name` = IF(length(${company_name})>0,${company_name},`company_name`),
 `country` = IF(length(${country})>0,${country},`country`),
-  
 `employees_num` = IF(${employees_num}<>0,${employees_num},`employees_num`),
 `employees_num_change_percentage` = IF(${employees_num_change_percentage}<>0,${employees_num_change_percentage},`employees_num_change_percentage`),
 `previous_rank` = IF(${previous_rank}<>0,${previous_rank},`previous_rank`),
