@@ -197,27 +197,5 @@
     "sql_file": "sql/PUT-fortune500_2018_2022-batch.sql",
     "type": "sql_endpoint",
     "return_type": "json"
-  },
-  {
-    "name": "/test1",
-    "description": "",
-    "method": "GET",
-    "endpoint": "/test1",
-    "data_source": {
-      "cluster_id": 10431196097624190846
-    },
-    "params": [],
-    "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-test1.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
   }
 ]
