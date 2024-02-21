@@ -296,9 +296,9 @@
   },
   {
     "name": "/user/batch_dump_uKjTel",
-    "description": "",
+    "description": "asdfasdfas",
     "method": "POST",
-    "endpoint": "/user/batch_dump_uKjTel",
+    "endpoint": "/user/batch_dump_uKjTel123",
     "data_source": {
       "cluster_id": 10397230906819574004
     },
@@ -320,7 +320,7 @@
     },
     "tag": "Default",
     "batch_operation": 1,
-    "sql_file": "sql/POST-user-batch_dump_uKjTel.sql",
+    "sql_file": "sql/POST-user-batch_dump_uKjTel123.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
