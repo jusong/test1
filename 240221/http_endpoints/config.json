@@ -1,0 +1,394 @@
+[
+  {
+    "name": "/system/executeQuery",
+    "description": "Execute any SQL statement, including both Data Manipulation Language (DML) and Data Definition Language (DDL). Customize timeout settings based on the query's complexity and limit the number of returned rows with the 'Max Rows' option for efficient execution and control. Caution: This powerful and versatile endpoint can have potentially destructive effects. Use with discretion, ensuring queries are secure and well-considered to prevent unintended consequences",
+    "method": "POST",
+    "endpoint": "/system/executeQuery",
+    "params": [
+      {
+        "name": "cluster_id",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "TiDB Cluster to use"
+      },
+      {
+        "name": "database",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "Database within the cluster"
+      },
+      {
+        "name": "sql",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "SQL statement"
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "System/Data",
+    "batch_operation": 0,
+    "sql_file": "",
+    "type": "system-data",
+    "return_type": "json"
+  },
+  {
+    "name": "/test",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/test",
+    "data_source": {
+      "cluster_id": 10397230906819574004
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-test.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/user",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/user",
+    "data_source": {
+      "cluster_id": 10397230906819574004
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-user.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/user",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/user",
+    "data_source": {
+      "cluster_id": 10397230906819574004
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-user.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/user",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/user",
+    "data_source": {
+      "cluster_id": 10397230906819574004
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/PUT-user.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/user",
+    "description": "",
+    "method": "DELETE",
+    "endpoint": "/user",
+    "data_source": {
+      "cluster_id": 10397230906819574004
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/DELETE-user.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/user/batch",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/user/batch",
+    "data_source": {
+      "cluster_id": 10397230906819574004
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/PUT-user-batch.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/user/batch",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/user/batch",
+    "data_source": {
+      "cluster_id": 10397230906819574004
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/POST-user-batch.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/user_dump_rMHkel",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/user_dump_rMHkel",
+    "data_source": {
+      "cluster_id": 10397230906819574004
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-user_dump_rMHkel.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/user/batch_dump_uKjTel",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/user/batch_dump_uKjTel",
+    "data_source": {
+      "cluster_id": 10397230906819574004
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 0,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/POST-user-batch_dump_uKjTel.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/user/batch_dump_LnWtQU",
+    "description": "",
+    "method": "PUT",
+    "endpoint": "/user/batch_dump_LnWtQU",
+    "data_source": {
+      "cluster_id": 10397230906819574004
+    },
+    "params": [
+      {
+        "name": "id",
+        "type": "number",
+        "required": 1,
+        "default": "",
+        "description": ""
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 0,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 1,
+    "sql_file": "sql/PUT-user-batch_dump_LnWtQU.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/user_dump_HMOQju",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/user_dump_HMOQju",
+    "data_source": {
+      "cluster_id": 10397230906819574004
+    },
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-user_dump_HMOQju.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
