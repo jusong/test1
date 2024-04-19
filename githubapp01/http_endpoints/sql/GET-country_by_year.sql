@@ -1,0 +1,1 @@
+use fortune500; select id from fortune500_2018_2022 where year in (${year}) and country=${country};
