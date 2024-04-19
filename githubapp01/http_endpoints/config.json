@@ -108,7 +108,7 @@
     "name": "/test",
     "description": "",
     "method": "POST",
-    "endpoint": "/test001/{year1}/{year2}",
+    "endpoint": "/test002/{year1}/{year2}",
     "data_source": {
       "cluster_id": 3779052
     },
@@ -144,7 +144,7 @@
     },
     "tag": "",
     "batch_operation": 0,
-    "sql_file": "sql/POST-test001-{year1}-{year2}.sql",
+    "sql_file": "sql/POST-test002-{year1}-{year2}.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
