@@ -66,36 +66,6 @@
     "return_type": "json"
   },
   {
-    "name": "/deploy456",
-    "description": "hello endpoint",
-    "method": "POST",
-    "endpoint": "/deploy456",
-    "data_source": {
-      "cluster_id": 3779052
-    },
-    "params": [
-      {
-        "name": "limit",
-        "type": "number",
-        "required": 1,
-        "default": "10",
-        "description": ""
-      }
-    ],
-    "settings": {
-      "timeout": 2000,
-      "row_limit": 500,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/POST-deploy456.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
     "name": "country_by_year001",
     "description": "endpoint desc001",
     "method": "GET",
