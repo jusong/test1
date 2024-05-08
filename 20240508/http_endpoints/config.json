@@ -1,52 +1,5 @@
 [
   {
-    "name": "/abc/abc",
-    "description": "",
-    "method": "POST",
-    "endpoint": "/abc/{year1}/{a123}",
-    "data_source": {
-      "cluster_id": 3779052
-    },
-    "params": [
-      {
-        "name": "year1",
-        "type": "string",
-        "required": 1,
-        "default": "2018",
-        "description": "",
-        "is_path_parameter": true
-      },
-      {
-        "name": "a123",
-        "type": "integer",
-        "required": 1,
-        "default": "",
-        "description": "",
-        "is_path_parameter": true
-      },
-      {
-        "name": "N",
-        "type": "string",
-        "required": 0,
-        "default": "",
-        "description": "",
-        "is_path_parameter": false 
-      }
-    ],
-    "settings": {
-      "timeout": 30000,
-      "row_limit": 1000,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/POST-abc-{year1}-{a123}.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
     "name": "/system/query",
     "description": "This API is used for executing any SQL statement for specified cluster and database.",
     "method": "POST",
@@ -122,6 +75,52 @@
     "tag": "Default",
     "batch_operation": 0,
     "sql_file": "sql/POST-abc-{year}-dump_ZVwjbxx.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/abc/abc",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/abcd/{year2}/{a123}",
+    "data_source": {
+      "cluster_id": 3779052
+    },
+    "params": [
+      {
+        "name": "year2",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "",
+        "is_path_parameter": true
+      },
+      {
+        "name": "a123",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "",
+        "is_path_parameter": true
+      },
+      {
+        "name": "N",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-abcd-{year2}-{a123}.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
