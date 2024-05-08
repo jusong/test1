@@ -105,7 +105,7 @@
       },
       {
         "name": "N",
-        "type": "string",
+        "type": "integer",
         "required": 0,
         "default": "",
         "description": ""
