@@ -29,7 +29,8 @@
         "type": "string",
         "required": 0,
         "default": "",
-        "description": ""
+        "description": ",
+        "is_path_parameter": true
       }
     ],
     "settings": {
