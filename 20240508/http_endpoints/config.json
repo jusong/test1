@@ -18,11 +18,11 @@
       },
       {
         "name": "a123",
-        "type": "string",
+        "type": "number",
         "required": 1,
         "default": "",
         "description": "",
-        "is_path_parameter": false
+        "is_path_parameter": true
       },
       {
         "name": "N",
