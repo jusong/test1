@@ -12,7 +12,7 @@
         "name": "year1",
         "type": "string",
         "required": 1,
-        "default": "2019",
+        "default": "2018",
         "description": "",
         "is_path_parameter": true
       },
