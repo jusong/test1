@@ -3,7 +3,7 @@
     "name": "/abc/abc",
     "description": "",
     "method": "POST",
-    "endpoint": "/abc/{year}/{a123",
+    "endpoint": "/abc/{year1}/{a123}",
     "data_source": {
       "cluster_id": 3779052
     },
