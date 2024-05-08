@@ -42,7 +42,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/POST-abc-{year}-{a123}.sql",
+    "sql_file": "sql/POST-abc-{year1}-{a123}.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
