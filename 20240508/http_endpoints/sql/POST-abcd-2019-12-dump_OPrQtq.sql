@@ -4,6 +4,7 @@ Type "--your question" + Enter to try out AI-generated SQL queries
 Declare a parameter like "Where id = ${arg}".
 */
 SELECT
+  2019,
 	`company_name`,`year`
 	`rank`
 FROM
