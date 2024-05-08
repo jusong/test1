@@ -1,0 +1,127 @@
+[
+  {
+    "name": "/abc/abc",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/abc/{year}/{a123}",
+    "data_source": {
+      "cluster_id": 3779052
+    },
+    "params": [
+      {
+        "name": "year",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "",
+        "is_path_parameter": true
+      },
+      {
+        "name": "a123",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "",
+        "is_path_parameter": true
+      },
+      {
+        "name": "N",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-abc-{year}-{a123}.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/system/query",
+    "description": "This API is used for executing any SQL statement for specified cluster and database.",
+    "method": "POST",
+    "endpoint": "/system/query",
+    "params": [
+      {
+        "name": "cluster_id",
+        "type": "string",
+        "required": 0,
+        "default": "10431196097624190846",
+        "description": "TiDB Cluster to use"
+      },
+      {
+        "name": "database",
+        "type": "string",
+        "required": 0,
+        "default": "test",
+        "description": "Database within the cluster"
+      },
+      {
+        "name": "sql",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "SQL statement"
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "System/Data",
+    "batch_operation": 0,
+    "sql_file": "",
+    "type": "system-data",
+    "return_type": "json"
+  },
+  {
+    "name": "/abc/abc_copy",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/abc/{year}/dump_ZVwjbxx",
+    "data_source": {
+      "cluster_id": 3779052
+    },
+    "params": [
+      {
+        "name": "year",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "",
+        "is_path_parameter": true
+      },
+      {
+        "name": "N",
+        "type": "string",
+        "required": 0,
+        "default": "",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-abc-{year}-dump_ZVwjbxx.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  }
+]
