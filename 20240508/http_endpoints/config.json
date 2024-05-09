@@ -446,17 +446,18 @@
     "name": "/fortune500_2018_2022",
     "description": "",
     "method": "GET",
-    "endpoint": "/fortune500_2018_2022",
+    "endpoint": "/fortune500_2018_2022/{id}",
     "data_source": {
       "cluster_id": 3779052
     },
     "params": [
       {
         "name": "id",
-        "type": "number",
+        "type": "string",
         "required": 1,
         "default": "",
-        "description": ""
+        "description": "",
+        "is_path_parameter": true
       }
     ],
     "settings": {
@@ -468,7 +469,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/GET-fortune500_2018_2022.sql",
+    "sql_file": "sql/GET-fortune500_2018_2022-{id}.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
