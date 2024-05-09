@@ -107,7 +107,7 @@
         "name": "N",
         "type": "integer",
         "required": 1,
-        "default": "",
+        "default": "100",
         "description": ""
       }
     ],
