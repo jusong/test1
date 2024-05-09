@@ -4,12 +4,12 @@ Type "--your question" + Enter to try out AI-generated SQL queries
 Declare a parameter like "Where id = ${arg}".
 */
 SELECT
-	`company_name`,
+	`company_name`,`year`
 	`rank`
 FROM
 	fortune500.fortune500_2018_2022
 WHERE
-	`year` = ${year2}
+	`year` != ${year2}
 ORDER BY
 	`rank` ASC
 LIMIT ${N};

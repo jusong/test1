@@ -97,7 +97,7 @@
       },
       {
         "name": "a123",
-        "type": "string",
+        "type": "integer",
         "required": 1,
         "default": "",
         "description": "",
