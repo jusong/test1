@@ -128,7 +128,7 @@
     "name": "/abc/abc_copy",
     "description": "",
     "method": "POST",
-    "endpoint": "/abcd/2019/12/dump_OPrQtq",
+    "endpoint": "/var/{year}",
     "data_source": {
       "cluster_id": 3779052
     },
@@ -136,9 +136,10 @@
       {
         "name": "year",
         "type": "string",
-        "required": 0,
+        "required": 1,
         "default": "",
-        "description": ""
+        "description": "",
+        "is_path_parameter": true
       },
       {
         "name": "N",
@@ -157,7 +158,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/POST-abcd-2019-12-dump_OPrQtq.sql",
+    "sql_file": "sql/POST-var-{year}.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
