@@ -128,13 +128,13 @@
     "name": "/abc/abc_copy",
     "description": "",
     "method": "POST",
-    "endpoint": "/year/{year}/year2/{year2}",
+    "endpoint": "/year/{year1}/{year2}",
     "data_source": {
       "cluster_id": 3779052
     },
     "params": [
       {
-        "name": "year",
+        "name": "year1",
         "type": "string",
         "required": 1,
         "default": "",
@@ -148,6 +148,13 @@
         "default": "",
         "description": "",
         "is_path_parameter": true
+      },
+      {
+        "name": "year",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": ""
       },
       {
         "name": "N",
@@ -166,7 +173,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/POST-year-{year}-year2-{year2}.sql",
+    "sql_file": "sql/POST-year-{year1}-{year2}.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
