@@ -97,9 +97,9 @@
       },
       {
         "name": "a123",
-        "type": "integer",
+        "type": "string",
         "required": 1,
-        "default": "2",
+        "default": "",
         "description": "",
         "is_path_parameter": true
       },
@@ -709,7 +709,7 @@
     "return_type": "json"
   },
   {
-    "name": "/untitled_endpoint",
+    "name": "/hello",
     "description": "",
     "method": "GET",
     "endpoint": "/hello",

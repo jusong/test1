@@ -9,7 +9,7 @@ SELECT
 FROM
 	fortune500.fortune500_2018_2022
 WHERE
-	`year` != ${year2}
+	`year` = ${year2}
 ORDER BY
 	`rank` ASC
 LIMIT ${N};
