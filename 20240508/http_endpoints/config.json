@@ -98,8 +98,8 @@
       {
         "name": "a123",
         "type": "integer",
-        "required": 1,
-        "default": "",
+        "required": 0,
+        "default": "1",
         "description": "",
         "is_path_parameter": true
       },
