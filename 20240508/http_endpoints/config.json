@@ -99,7 +99,7 @@
         "name": "a123",
         "type": "integer",
         "required": 0,
-        "default": "1",
+        "default": "2",
         "description": "",
         "is_path_parameter": true
       },
