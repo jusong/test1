@@ -106,7 +106,7 @@
       {
         "name": "N",
         "type": "integer",
-        "required": 0,
+        "required": 1,
         "default": "",
         "description": ""
       }
