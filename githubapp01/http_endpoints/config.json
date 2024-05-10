@@ -46,28 +46,6 @@
     "return_type": "json"
   },
   {
-    "name": "/deploy123001",
-    "description": "",
-    "method": "POST",
-    "endpoint": "/deploy12",
-    "data_source": {
-      "cluster_id": 3779052
-    },
-    "params": [],
-    "settings": {
-      "timeout": 2000,
-      "row_limit": 200,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "",
-    "batch_operation": 0,
-    "sql_file": "sql/POST-deploy11.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
     "name": "country_by_year001",
     "description": "endpoint desc001",
     "method": "GET",
@@ -103,46 +81,6 @@
     "tag": "Default",
     "batch_operation": 0,
     "sql_file": "sql/GET-country_by_year.sql",
-    "type": "sql_endpoint",
-    "return_type": "json"
-  },
-  {
-    "name": "country_by_year001",
-    "description": "endpoint desc001",
-    "method": "GET",
-    "endpoint": "/country_by_year/{year}/{country}",
-    "data_source": {
-      "cluster_id": 3779052
-    },
-    "params": [
-      {
-        "name": "year",
-        "type": "string",
-        "required": 1,
-        "default": "",
-        "description": "",
-        "is_path_parameter": true
-      },
-      {
-        "name": "country",
-        "type": "string",
-        "required": 1,
-        "default": "China",
-        "description": "country",
-        "enum": "China,Japan",
-        "is_path_parameter": true
-      }
-    ],
-    "settings": {
-      "timeout": 3000,
-      "row_limit": 300,
-      "cache_enabled": 0,
-      "cache_ttl": 0,
-      "enable_pagination": 0
-    },
-    "tag": "Default",
-    "batch_operation": 0,
-    "sql_file": "sql/GET-country_by_year-{year}.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -189,6 +127,99 @@
     "tag": "",
     "batch_operation": 0,
     "sql_file": "sql/POST-test002-{year1}-{year2}.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/deploy123001",
+    "description": "",
+    "method": "POST",
+    "endpoint": "/deploy12",
+    "data_source": {
+      "cluster_id": 3779052
+    },
+    "params": [],
+    "settings": {
+      "timeout": 2000,
+      "row_limit": 200,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "",
+    "batch_operation": 0,
+    "sql_file": "sql/POST-deploy12.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "country_by_year001",
+    "description": "endpoint desc001",
+    "method": "GET",
+    "endpoint": "/country_by_year/{year}/{country}",
+    "data_source": {
+      "cluster_id": 3779052
+    },
+    "params": [
+      {
+        "name": "year",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "",
+        "is_path_parameter": true
+      },
+      {
+        "name": "country",
+        "type": "string",
+        "required": 1,
+        "default": "China",
+        "description": "country",
+        "enum": "China,Japan",
+        "is_path_parameter": true
+      }
+    ],
+    "settings": {
+      "timeout": 3000,
+      "row_limit": 300,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-country_by_year-{year}-{country}.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
+    "name": "/hello_path/path",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/hello_path/{path}",
+    "data_source": {
+      "cluster_id": 3779052
+    },
+    "params": [
+      {
+        "name": "path",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "",
+        "is_path_parameter": true
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-hello_path-{path}.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
