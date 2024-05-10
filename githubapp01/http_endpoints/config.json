@@ -117,7 +117,8 @@
         "type": "string",
         "required": 1,
         "default": "",
-        "description": ""
+        "description": "",
+		"is_path_parameter": true
       },
       {
         "name": "year2",
