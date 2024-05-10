@@ -69,18 +69,17 @@
     "name": "country_by_year001",
     "description": "endpoint desc001",
     "method": "GET",
-    "endpoint": "/country_by_year",
+    "endpoint": "/country_by_year/{year}",
     "data_source": {
       "cluster_id": 3779052
     },
     "params": [
       {
         "name": "year",
-        "type": "array",
-        "required": 0,
-        "default": "2018,2019,2020",
+        "type": "string",
+        "required": 1,
         "description": "year",
-        "item_type": "string"
+		"is_path_parameter": true
       },
       {
         "name": "country",
