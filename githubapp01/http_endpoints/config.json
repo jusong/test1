@@ -120,7 +120,7 @@
         "type": "string",
         "required": 1,
         "default": "",
-        "description": "year",
+        "description": "",
         "is_path_parameter": true
       },
       {
