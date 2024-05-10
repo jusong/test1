@@ -110,7 +110,7 @@
     "name": "country_by_year001",
     "description": "endpoint desc001",
     "method": "GET",
-    "endpoint": "/country_by_year/{year}",
+    "endpoint": "/country_by_year/{year}/{country}",
     "data_source": {
       "cluster_id": 3779052
     },
@@ -126,10 +126,11 @@
       {
         "name": "country",
         "type": "string",
-        "required": 0,
+        "required": 1,
         "default": "China",
         "description": "country",
-        "enum": "China,Japan"
+        "enum": "China,Japan",
+        "is_path_parameter": true
       }
     ],
     "settings": {
