@@ -49,7 +49,7 @@
     "name": "/deploy123001",
     "description": "",
     "method": "POST",
-    "endpoint": "/deploy11",
+    "endpoint": "/deploy12",
     "data_source": {
       "cluster_id": 3779052
     },
