@@ -712,7 +712,7 @@
     "name": "/hello",
     "description": "",
     "method": "GET",
-    "endpoint": "/hello",
+    "endpoint": "/hello123456789012",
     "data_source": {
       "cluster_id": 10431196097624190846
     },
@@ -726,7 +726,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/GET-hello.sql",
+    "sql_file": "sql/GET-hello123456789012.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
