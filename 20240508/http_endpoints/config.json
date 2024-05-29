@@ -44,7 +44,7 @@
     "name": "/abc/abc_copy",
     "description": "",
     "method": "POST",
-    "endpoint": "/abc/{year}/dump_ZVwjbxx",
+    "endpoint": "/abc/{year}/dump_ZVwjbxx1",
     "data_source": {
       "cluster_id": 3779052
     },
@@ -74,7 +74,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/POST-abc-{year}-dump_ZVwjbxx.sql",
+    "sql_file": "sql/POST-abc-{year}-dump_ZVwjbxx1.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -82,13 +82,13 @@
     "name": "/abc/abc",
     "description": "",
     "method": "POST",
-    "endpoint": "/abcd/{year2}/{a123}",
+    "endpoint": "/{a1231}",
     "data_source": {
-      "cluster_id": 3779052
+      "cluster_id": 10431196097624190846
     },
     "params": [
       {
-        "name": "year2",
+        "name": "a1231",
         "type": "string",
         "required": 1,
         "default": "",
@@ -96,12 +96,11 @@
         "is_path_parameter": true
       },
       {
-        "name": "a123",
+        "name": "year2",
         "type": "string",
         "required": 1,
         "default": "",
-        "description": "",
-        "is_path_parameter": true
+        "description": ""
       },
       {
         "name": "N",
@@ -120,7 +119,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/POST-abcd-{year2}-{a123}.sql",
+    "sql_file": "sql/POST-{a1231}.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -128,7 +127,7 @@
     "name": "/abc/abc_copy",
     "description": "",
     "method": "POST",
-    "endpoint": "/year/{year1}/{year2}",
+    "endpoint": "/year/{year1}/{year2}/{year}",
     "data_source": {
       "cluster_id": 3779052
     },
@@ -154,7 +153,8 @@
         "type": "string",
         "required": 1,
         "default": "",
-        "description": ""
+        "description": "",
+        "is_path_parameter": true
       },
       {
         "name": "N",
@@ -173,7 +173,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/POST-year-{year1}-{year2}.sql",
+    "sql_file": "sql/POST-year-{year1}-{year2}-{year}.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -181,11 +181,19 @@
     "name": "/fortune500_2018_2022",
     "description": "",
     "method": "POST",
-    "endpoint": "/fortune500_2018_2022",
+    "endpoint": "/fortune500_2018_2022/{id}",
     "data_source": {
       "cluster_id": 3779052
     },
     "params": [
+      {
+        "name": "id",
+        "type": "string",
+        "required": 1,
+        "default": "",
+        "description": "",
+        "is_path_parameter": true
+      },
       {
         "name": "rank",
         "type": "number",
@@ -287,7 +295,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/POST-fortune500_2018_2022.sql",
+    "sql_file": "sql/POST-fortune500_2018_2022-{id}.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -295,17 +303,18 @@
     "name": "/fortune500_2018_2022",
     "description": "",
     "method": "PUT",
-    "endpoint": "/fortune500_2018_2022",
+    "endpoint": "/fortune500_2018_2022/{id}",
     "data_source": {
       "cluster_id": 3779052
     },
     "params": [
       {
         "name": "id",
-        "type": "number",
+        "type": "string",
         "required": 1,
         "default": "",
-        "description": ""
+        "description": "",
+        "is_path_parameter": true
       },
       {
         "name": "rank",
@@ -408,7 +417,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/PUT-fortune500_2018_2022.sql",
+    "sql_file": "sql/PUT-fortune500_2018_2022-{id}.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -416,17 +425,18 @@
     "name": "/fortune500_2018_2022",
     "description": "",
     "method": "DELETE",
-    "endpoint": "/fortune500_2018_2022",
+    "endpoint": "/fortune500_2018_2022/{id}",
     "data_source": {
       "cluster_id": 3779052
     },
     "params": [
       {
         "name": "id",
-        "type": "number",
+        "type": "string",
         "required": 1,
         "default": "",
-        "description": ""
+        "description": "",
+        "is_path_parameter": true
       }
     ],
     "settings": {
@@ -438,7 +448,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/DELETE-fortune500_2018_2022.sql",
+    "sql_file": "sql/DELETE-fortune500_2018_2022-{id}.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
@@ -712,9 +722,9 @@
     "name": "/hello",
     "description": "",
     "method": "GET",
-    "endpoint": "/hello123456789012",
+    "endpoint": "/hello",
     "data_source": {
-      "cluster_id": 10431196097624190846
+      "cluster_id": 10878867040587681372
     },
     "params": [],
     "settings": {
@@ -726,7 +736,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/GET-hello123456789012.sql",
+    "sql_file": "sql/GET-hello.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   }
