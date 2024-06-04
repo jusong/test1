@@ -41,17 +41,54 @@
     "return_type": "json"
   },
   {
+    "name": "/code_example_test",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/code_example_test",
+    "data_source": {
+      "cluster_id": 10110542769979876697
+    },
+    "params": [
+      {
+        "name": "rank",
+        "type": "number",
+        "required": 0,
+        "default": "1",
+        "description": ""
+      },
+      {
+        "name": "year",
+        "type": "number",
+        "required": 0,
+        "default": "2018",
+        "description": ""
+      }
+    ],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-code_example_test.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
+  },
+  {
     "name": "/hello/path",
     "description": "",
     "method": "GET",
-    "endpoint": "/hello/{path}",
+    "endpoint": "/hello/{limit}",
     "data_source": {
       "cluster_id": 10796999098469983443
     },
     "params": [
       {
-        "name": "path",
-        "type": "string",
+        "name": "limit",
+        "type": "integer",
         "required": 1,
         "default": "",
         "description": "",
@@ -67,7 +104,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/GET-hello-{path}.sql",
+    "sql_file": "sql/GET-hello-{limit}.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
