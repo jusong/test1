@@ -81,7 +81,7 @@
     "name": "/hello/path",
     "description": "",
     "method": "GET",
-    "endpoint": "/hello/{limit}",
+    "endpoint": "/hello/{limit}/123",
     "data_source": {
       "cluster_id": 10796999098469983443
     },
@@ -104,7 +104,7 @@
     },
     "tag": "Default",
     "batch_operation": 0,
-    "sql_file": "sql/GET-hello-{limit}.sql",
+    "sql_file": "sql/GET-hello-{limit}-123.sql",
     "type": "sql_endpoint",
     "return_type": "json"
   },
